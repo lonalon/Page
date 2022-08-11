@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人起始页</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="index.js"></script>
+</head>
+
+<body onload="startTime()" background="./img/background.jpg">
+    <div id="time" class="div-time"></div>
+    <div id="box" class="div-search">
+        <input id="obj" type="text" class="searchTerm" value="输入关键词" onfocus="javascript:this.value=''">
+        <button onclick="search()" class="searchButton">
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+    <div class="div-link">
+        <a href="https://www.bilibili.com" target="_blank" class="a-link">
+            <img src="./img/bilibili.png" alt="哔哩哔哩动画" class="link-image">
+            <p class="link-title">bilibili</p>
+        </a>
+        <a href="https://chinese.freecodecamp.org" target="_blank" class="a-link">
+            <img src="./img/freecode.png" alt="freecodecamp" class="link-image">
+            <p class="link-title">freecode</p>
+        </a>
+        <a href="https://www.runoob.com/" target="_blank" class="a-link">
+            <img src="./img/runoob.ico" alt="菜鸟教程" class="link-image">
+            <p class="link-title">菜鸟教程</p>
+        </a>
+        <a href="https://www.xinpianchang.com/" target="_blank" class="a-link">
+            <img src="./img/xinpianchang.ico" alt="新片场" class="link-image">
+            <p class="link-title">新片场</p>
+        </a>
+        <a href="https://www.midorg.com/" target="_blank" class="a-link">
+            <img src="./img/midorg.ico" alt="元岛社区" class="link-image">
+            <p class="link-title">元岛社区</p>
+        </a>
+        <a href="https://topbook.cc/" target="_blank" class="a-link">
+            <img src="./img/topbook.png" alt="Topbook" class="link-image">
+            <p class="link-title">Topbook</p>
+        </a>
+    </div>
+</body>
+
+</html>
